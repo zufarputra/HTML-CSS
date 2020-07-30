@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: brown;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background: salmon;
+}
+header h1 {
+  padding-left: 20px;
+  color: beige;
+  padding-top: 15px;
+}
+.content h1 {
+  padding: 2%;
+  color: blanchedalmond;
+  font-size: 24px;
+}
+nav ul {
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: chocolate;
+  list-style: none;
+  padding-left: 0;
+}
+nav ul li {
+  color: blanchedalmond;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  width: 70px;
+  padding: 10px;
+  font-family: monospace;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul li a {
+  color: blanchedalmond;
+}
+nav ul li:hover {
+  cursor: pointer;
+  background: darkgoldenrod;
+}
+nav ul li ul {
+  background: darkkhaki;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 10px;
+  left: 0;
+  display: none;
+  font-family: monospace;
+}
+nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+section h2 {
+  font-size: 28px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: brown;
+  padding-left: 25px;
+}
+section p {
+  padding: 3%;
+  font-size: 16px;
+  color: black;
+  font-family: sans-serif;
+}
+footer p {
+  text-align: center;
+}
+section img {
+  width: 400px;
+}
